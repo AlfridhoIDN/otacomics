@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Middleware\CheckAdmin;
+use App\Http\Middleware\CheckPublisher;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -11,9 +13,13 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
+        $middleware->alias([
+            'check-admin' => CheckAdmin::class,
+            'check-publisher' => CheckPublisher::class,
+        ]);
         $middleware->redirectTo(
-            guests: 'account/login',
-            users: 'account/profile'
+            guests: 'login',
+            users: 'profile'
         );
     })
     ->withExceptions(function (Exceptions $exceptions) {

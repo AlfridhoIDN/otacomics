@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --blue: #1e90ff;
+    --blue: #6929ff;
     --white: #ffffff;
-    --btn-bg-primary: #3a92f7;
-    --btn-border-primary: #3a92f7;
+    --btn-bg-primary: #6929ff;
+    --btn-border-primary: #6929ff;
     --btn-font-family: "Montserrat", sans-serif;
     --body-font-family: "Lato", sans-serif;
     --btn-bg-dark: #000;
-    --star-raing-color: #3a92f7;
+    --star-raing-color: #6929ff;
 }
 
 body{
@@ -99,4 +99,18 @@ body{
     font-size: 16px;
     font-family: var(--btn-font-family);
     font-weight: 500;
+}
+
+.pagination-info {
+    color: white !important; /* Override default text color */
+}
+
+.pagination a {
+    display: inline-block;
+    background: #6929ff;
+    padding: 5px 12px !important;
+    margin: 2px;
+    color: #ffffff;
+    border-radius: 3px;
+    border-color: #6929ff;
 }
