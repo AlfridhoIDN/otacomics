@@ -75,3 +75,83 @@ Proyek ini dilisensikan di bawah **MIT License**. Lihat file [LICENSE](LICENSE) 
 ---
 
 Terima kasih telah menggunakan **OtaComics**! Semoga pengalaman membaca manga Anda menjadi lebih menyenangkan dengan aplikasi ini. 😊
+
+
+#ENG:
+---
+
+# **OtaComics** - Manga Reader & Publisher Platform
+
+OtaComics is a manga reader app that allows users to read, review, and even publish their own comics! With a clean and responsive interface, OtaComics takes your manga reading experience to the next level.
+
+## Key Features
+
+### 1. **User & Publisher Roles**
+   - **Regular Users** can:
+     - Read available comics.
+     - Write reviews and rate comics.
+   
+   - **Publishers** can:
+     - Publish their own comics.
+     - Manage and moderate reviews on the comics they publish.
+   
+   - **Admins** can:
+     - Change user roles to publishers.
+     - Manage all users and published comics.
+
+### 2. **Comic Management**
+   - Publishers can easily upload and manage their comics.
+   - Review moderation system ensures content quality is maintained.
+
+### 3. **Responsive Design**
+   - OtaComics is built with **TailwindCSS** to ensure the app looks perfect on all devices (mobile, tablet, desktop).
+   
+### 4. **User-Friendly**
+   - An intuitive interface that makes reading comics a delightful experience.
+
+## Technologies Used
+
+- **Laravel** - A powerful PHP framework for the backend.
+- **TailwindCSS** - A modern CSS framework for responsive design.
+- **MySQL** - A relational database for storing user, comic, and review data.
+- **Composer** - A PHP dependency manager to manage libraries.
+
+## Installation
+
+### 1. **Clone Repository**
+
+### 2. **Install Dependencies**
+
+### 3. **Environment Setup**
+Copy `.env.example` to `.env` and configure the database settings:
+
+Adjust the database settings, such as name, user, and password for MySQL.
+
+### 4. **Generate Application Key**
+
+### 5. **Run Database Migrations**
+
+### 6. **Run Development Server**
+
+Access the app through `http://127.0.0.1:8000` (localhost).
+
+## Upcoming Features
+- **Community Features**: A forum for discussions between readers and publishers.
+- **Notifications**: Alerts for new comic updates or recent reviews.
+
+## Contributing
+
+We welcome contributions from everyone! If you'd like to contribute to this project, feel free to join our community on Discord to discuss and share ideas:
+
+[Join our Discord community](https://discord.gg/6d5uENqhvq)
+
+There, you can ask questions, participate in discussions, or propose new features you’d like to add to the app. We’re happy to help!
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Thank you for using **OtaComics**! We hope your manga reading experience is even more enjoyable with this app. 😊
+
+--- 
