@@ -1,66 +1,77 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ![OtaComics Logo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmc...7Zy5jXzBGRkdwITFBIEkxR5IHxNKcC0Ynxg==)  
+# **OtaComics** - Manga Reader & Publisher Platform
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+OtaComics adalah aplikasi pembaca manga yang memungkinkan pengguna untuk membaca, mereview, dan bahkan menerbitkan komik mereka sendiri! Dengan antarmuka yang bersih dan responsif, OtaComics membawa pengalaman membaca manga ke level berikutnya.
 
-## About Laravel
+## Fitur Utama
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 1. **User & Publisher Role**
+   - **Pengguna biasa** dapat:
+     - Membaca komik yang tersedia.
+     - Menulis review dan memberi rating pada komik.
+   
+   - **Publisher** dapat:
+     - Menerbitkan komik mereka sendiri.
+     - Mengelola dan memoderasi review di komik yang mereka terbitkan.
+   
+   - **Admin** dapat:
+     - Mengubah status pengguna menjadi publisher.
+     - Mengelola semua pengguna dan komik yang diterbitkan.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 2. **Pengelolaan Komik**
+   - Publisher dapat meng-upload dan mengatur komik mereka dengan mudah.
+   - Sistem moderasi review untuk memastikan kualitas konten tetap terjaga.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 3. **Desain Responsif**
+   - OtaComics dirancang menggunakan **TailwindCSS** untuk memastikan aplikasi terlihat sempurna di semua perangkat (mobile, tablet, desktop).
+   
+### 4. **Mudah Digunakan**
+   - Interface yang intuitif membuat pengalaman membaca komik sangat menyenangkan.
+   
+## Teknologi yang Digunakan
 
-## Learning Laravel
+- **Laravel** - Framework PHP yang powerful untuk backend.
+- **TailwindCSS** - Framework CSS untuk desain yang responsif dan modern.
+- **MySQL** - Database relasional untuk menyimpan data pengguna, komik, dan review.
+- **Composer** - Manajer dependensi PHP untuk mengelola library.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Instalasi
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 1. **Clone Repository**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 2. **Install Dependencies**
 
-## Laravel Sponsors
+### 3. **Environment Setup**
+Salin `.env.example` menjadi `.env` dan atur konfigurasi database:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Sesuaikan pengaturan database, seperti nama, user, dan password MySQL.
 
-### Premium Partners
+### 4. **Generate Application Key**
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 5. **Migrasi Database**
 
-## Contributing
+### 6. **Run Development Server**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Akses aplikasi melalui `http://127.0.0.1:8000` (localhost).
 
-## Code of Conduct
+## Fitur Mendatang
+- **Fitur Komunitas**: Forum diskusi antara pembaca dan publisher.
+- **Notifikasi**: Pemberitahuan untuk update komik atau review terbaru.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+## Kontribusi
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Kami sangat menyambut kontribusi dari siapapun! Jika Anda ingin berkontribusi pada proyek ini, silakan bergabung dengan komunitas kami di Discord untuk berdiskusi dan berbagi ide:
 
-## License
+[Gabung ke komunitas Discord kami](https://discord.gg/6d5uENqhvq)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Di sana, Anda bisa bertanya, berdiskusi, atau menawarkan fitur baru yang ingin Anda tambahkan ke dalam aplikasi. Kami akan dengan senang hati membantu Anda!
+
+
+
+## Lisensi
+Proyek ini dilisensikan di bawah **MIT License**. Lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+
+---
+
+Terima kasih telah menggunakan **OtaComics**! Semoga pengalaman membaca manga Anda menjadi lebih menyenangkan dengan aplikasi ini. 😊
