@@ -1,4 +1,4 @@
-# ![OtaComics Logo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmc...7Zy5jXzBGRkdwITFBIEkxR5IHxNKcC0Ynxg==)  
+# ![OtaComics Logo](https://t3.ftcdn.net/jpg/01/39/64/08/240_F_139640867_CVK4nj3kQs9wqgXQpDc9NJD2UdTunhmp.jpg)  
 # **OtaComics** - Manga Reader & Publisher Platform
 
 OtaComics adalah aplikasi pembaca manga yang memungkinkan pengguna untuk membaca, mereview, dan bahkan menerbitkan komik mereka sendiri! Dengan antarmuka yang bersih dan responsif, OtaComics membawa pengalaman membaca manga ke level berikutnya.
